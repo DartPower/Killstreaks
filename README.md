@@ -1,4 +1,5 @@
-# DPT-PluginRepoTemplate
-DPT Specific Plugins for Bukkit-based plugin template
+# Killstreaks
 
-![Build](https://github.com/dptmc/DPT-PluginRepoTemplate/workflows/Build/badge.svg)
+Killstreaks
+
+![Build](https://github.com/dptmc/Killstreaks/workflows/Build/badge.svg)
