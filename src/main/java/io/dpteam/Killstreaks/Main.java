@@ -132,12 +132,12 @@ public class Main extends JavaPlugin implements Listener {
 		rankup.setItem(15, this.r6);
 		rankup.setItem(16, this.r7);
 		rankup.setItem(17, this.r8);
-		System.out.println("Killstreaks Enabled");
+		Bukkit.getServer().getLogger().info("[DPT.MC] Killstreaks Enabled");
 	}
 
 	@Override
 	public void onDisable() {
-		System.out.println("Killstreaks Disabled");
+		Bukkit.getServer().getLogger().info("[DPT.MC] Killstreaks Disabled");
 	}
 
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
@@ -158,55 +158,55 @@ public class Main extends JavaPlugin implements Listener {
 			int level = p.getLevel();
 			if (e.getCurrentItem().isSimilar(this.k2) && p.getLevel() >= 2) {
 				p.getInventory().setBoots(this.k2);
-				p.sendMessage(ChatColor.RED + "[Flexon] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 2);
 			}
 
 			if (e.getCurrentItem().isSimilar(this.k3) && p.getLevel() >= 3) {
 				p.getInventory().addItem(new ItemStack[]{this.k3});
-				p.sendMessage(ChatColor.RED + "[Flexon] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 3);
 			}
 
 			if (e.getCurrentItem().isSimilar(this.k4) && p.getLevel() >= 4) {
 				p.getInventory().addItem(new ItemStack[]{this.k4});
-				p.sendMessage(ChatColor.RED + "[Flexon] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 4);
 			}
 
 			if (e.getCurrentItem().isSimilar(this.k5) && p.getLevel() >= 5) {
 				p.getInventory().addItem(new ItemStack[]{this.k5});
-				p.sendMessage(ChatColor.RED + "[Flexon] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 5);
 			}
 
 			if (e.getCurrentItem().equals(this.k6) && p.getLevel() >= 6) {
 				p.getInventory().addItem(new ItemStack[]{this.k6});
-				p.sendMessage(ChatColor.RED + "[Flexon] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 6);
 			}
 
 			if (e.getCurrentItem().equals(this.k7) && p.getLevel() >= 7) {
 				p.getInventory().setChestplate(this.k7);
-				p.sendMessage(ChatColor.RED + "[Flexon] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 7);
 			}
 
 			if (e.getCurrentItem().equals(this.k8) && p.getLevel() >= 8) {
 				p.getInventory().addItem(new ItemStack[]{this.k8});
-				p.sendMessage(ChatColor.RED + "[Flexon] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 8);
 			}
 
 			if (e.getCurrentItem().equals(this.k9) && p.getLevel() >= 9) {
 				p.getInventory().addItem(new ItemStack[]{this.k9});
-				p.sendMessage(ChatColor.RED + "[Flexon] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 9);
 			}
 
 			if (e.getCurrentItem().equals(this.k10) && p.getLevel() >= 10) {
 				p.getInventory().addItem(new ItemStack[]{this.k10});
-				p.sendMessage(ChatColor.RED + "[Flexon] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 10);
 			}
 		}
