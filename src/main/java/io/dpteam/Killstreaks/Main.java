@@ -158,55 +158,55 @@ public class Main extends JavaPlugin implements Listener {
 			int level = p.getLevel();
 			if (e.getCurrentItem().isSimilar(this.k2) && p.getLevel() >= 2) {
 				p.getInventory().setBoots(this.k2);
-				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[Killstreaks] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 2);
 			}
 
 			if (e.getCurrentItem().isSimilar(this.k3) && p.getLevel() >= 3) {
 				p.getInventory().addItem(new ItemStack[]{this.k3});
-				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[Killstreaks] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 3);
 			}
 
 			if (e.getCurrentItem().isSimilar(this.k4) && p.getLevel() >= 4) {
 				p.getInventory().addItem(new ItemStack[]{this.k4});
-				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[Killstreaks] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 4);
 			}
 
 			if (e.getCurrentItem().isSimilar(this.k5) && p.getLevel() >= 5) {
 				p.getInventory().addItem(new ItemStack[]{this.k5});
-				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[Killstreaks] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 5);
 			}
 
 			if (e.getCurrentItem().equals(this.k6) && p.getLevel() >= 6) {
 				p.getInventory().addItem(new ItemStack[]{this.k6});
-				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[Killstreaks] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 6);
 			}
 
 			if (e.getCurrentItem().equals(this.k7) && p.getLevel() >= 7) {
 				p.getInventory().setChestplate(this.k7);
-				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[Killstreaks] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 7);
 			}
 
 			if (e.getCurrentItem().equals(this.k8) && p.getLevel() >= 8) {
 				p.getInventory().addItem(new ItemStack[]{this.k8});
-				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[Killstreaks] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 8);
 			}
 
 			if (e.getCurrentItem().equals(this.k9) && p.getLevel() >= 9) {
 				p.getInventory().addItem(new ItemStack[]{this.k9});
-				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[Killstreaks] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 9);
 			}
 
 			if (e.getCurrentItem().equals(this.k10) && p.getLevel() >= 10) {
 				p.getInventory().addItem(new ItemStack[]{this.k10});
-				p.sendMessage(ChatColor.RED + "[DPT.MC] " + ChatColor.GREEN + "Killstreak Item Sent.");
+				p.sendMessage(ChatColor.RED + "[Killstreaks] " + ChatColor.GREEN + "Killstreak Item Sent.");
 				p.setLevel(level - 10);
 			}
 		}
