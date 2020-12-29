@@ -132,12 +132,12 @@ public class Main extends JavaPlugin implements Listener {
 		rankup.setItem(15, this.r6);
 		rankup.setItem(16, this.r7);
 		rankup.setItem(17, this.r8);
-		Bukkit.getServer().getLogger().info("[DPT.MC] Killstreaks Enabled");
+		this.getServer().getLogger().info("[Killstreaks] Plugin loaded and enabled");
 	}
 
 	@Override
 	public void onDisable() {
-		Bukkit.getServer().getLogger().info("[DPT.MC] Killstreaks Disabled");
+		this.getServer().getLogger().info("[Killstreaks] Plugin unloaded and disabled");
 	}
 
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

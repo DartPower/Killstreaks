@@ -3,7 +3,7 @@ version: @version@-@apiversion@
 description: Deathmatch Rankup Plugin
 author: DartPower
 website: https://github.com/dptmc/Killstreak
-main: io.dpteam.Killstreak.Main
+main: io.dpteam.Killstreaks.Main
 api-version: 1.13
 commands:
   ks:
